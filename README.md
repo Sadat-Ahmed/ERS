@@ -3,8 +3,7 @@ A simple expense reimbursement system
 
 
 # Synopsis
-This expense reimbursement system was an invidual project that I worked on in my time with Revature LLC. 
-This is an internal system, primarily used as a source of communication between employees and their finance managers.
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 # Technical Requirements
 ![Alt text](https://i0.wp.com/www.knowledgewala.com/wp-content/uploads/2016/07/java-jdbc.png?fit=300%2C160)
