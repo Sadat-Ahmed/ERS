@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+
+#myCarousel {
+	padding: 0px;
+}
+
+page-top{
+	background-color: black;
+	
+}
+
+body {
+	background-image: url("op.png");
+    height: 100px;
+    width: 100px;
+}
+
+.darkSection {
+	background-color: #ffffff;
+	color: #F5F5F5;
+}
+
+.table thead {
+	background-color: #ffffff;
+	
+}
+
+#marketplace-navbar{
+	top:110px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.showingTotal {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* To get Bootstrap's Nav Dropdown to expand on hover */
+/* .dropdown:hover .dropdown-menu { */
+/* 	display: block; */
+/* 	z-index: 1000; */
+/* } */

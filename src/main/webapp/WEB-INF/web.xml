@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>PubHub</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>ViewTicketsMgtServlet</servlet-name>
+		<servlet-class>ers.servlets.ViewTicketsMgtServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewTicketsMgtServlet</servlet-name>
+		<url-pattern>/ViewTickets</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ViewTicketsEmpServlet</servlet-name>
+		<servlet-class>ers.servlets.ViewTicketsEmpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewTicketsEmpServlet</servlet-name>
+		<url-pattern>/ViewTicketsEmp</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SubmitTicketServlet</servlet-name>
+		<servlet-class>ers.servlets.SubmitTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubmitTicketServlet</servlet-name>
+		<url-pattern>/add.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InsertServlet</servlet-name>
+		<servlet-class>ers.servlets.InsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertServlet</servlet-name>
+		<url-pattern>/in.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>FrontController</servlet-name>
+		<servlet-class>ers.servlets.FrontController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name>
+		<url-pattern>/FrontController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdateTicketServlet</servlet-name>
+		<servlet-class>ers.servlets.UpdateTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateTicketServlet</servlet-name>
+		<url-pattern>/UpdateTicket</url-pattern>
+	</servlet-mapping>
+</web-app>
