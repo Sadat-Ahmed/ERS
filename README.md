@@ -4,7 +4,7 @@ A simple expense reimbursement system
 
 # Synopsis
 This expense reimbursement system was an invidual project that I worked on in my time with Revature LLC. 
-This is an internal system, primarily used as a source of communication between employee's and their finance managers.
+This is an internal system, primarily used as a source of communication between employees and their finance managers.
 
 # Technical Requirements
 ![Alt text](https://i0.wp.com/www.knowledgewala.com/wp-content/uploads/2016/07/java-jdbc.png?fit=300%2C160)
